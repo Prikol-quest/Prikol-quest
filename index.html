@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио Дмитрия Сохина</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+    <body>
+        <header id="header">
+            <div class="leftBox">
+                <a id="ava" href="#" onmouseenter="rainbow()" onmouseleave="rainbow(false)"><img class="ava" src="images/Avatar.png"></a>
+                <a id="fio" class="fio" href="#" onmouseenter="rainbow()" onmouseleave="rainbow(false)">Дмитрий Сохин</a>
+                <a class="telefon" href="tel:+7 999 211 65 91">+7 999 211 65 91</a>
+                <a class="email" href="mailto:Dima1Cohin@gmail.com">Dima1Cohin@gmail.com</a>
+                
+            </div>
+            <a class="email_smal" href="mailto:Dima1Cohin@gmail.com">Email me</a>
+            <div class="rightBox">
+                <a class="telefon" href="tel:+7 999 211 65 91">+7 999 211 65 91</a>
+                <a class="email" href="mailto:Dima1Cohin@gmail.com">Dima1Cohin@gmail.com</a>
+                <a class="sendTelegram" href="tg://resolve?domain=Uzzaw"><span>Написать в телеграме</span><img class="logoTelegram" src="images/telegram.svg"></a>
+            </div>
+        </header>
+        <section id="main-section" class="section-std">
+            <div>
+                <div class="title" style="margin-top: 94px;">Дизайнер продукта 🖖</div>
+                <div class="tagsUnderTitle">
+                    <div class="tagsUnderTitle_first">С фокусом на</div>
+                    <div class="tag">Исследовании</div>
+                    <div class="tag">Пользовательских тестированиях</div>
+                </div>
+                <div class="section-text">Я графический дизайнер и дизайнер интерфейсов. Интересуюсь векторной и трехмерной графикой, монтажом видео, анимацией, фотографией.<br><br> Создаю для компаний логотипы и фирменный стиль их продуктов. Больше всего люблю интерфейсы веб сайтов и мобильных устройств. <br><br>Перед началом проекта, я внимательно изучаю задачу и берусь за нее только если буду уверен что буду полезен.</div>
+            </div>
+        </section>
+        <section id="section_two" class="section-std">
+            <div>
+                <div class="title">Агрегатор офисов «Рентби»</div>
+                <div class="section-text" style="color: #A8A9AA; margin-bottom: 25px;">«Рентби» - аггрегатор офисов, с помощью специальных фильтров система подберет самый доступный оффис<br><br>О приемуществах аггрегатора говорит простой, информативный лаконичный сайт.</div>
+                <div class="scrollBox_one">
+                    <div class="scrollBox_nav_open">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="scrollBox_nav_img"><img src="images/Rentby_web.png"></div>
+                    <div class="scrollBox_nav_close"></div>
+                    <div class="scrollBox_underNavText">Страница просмотра недвижимости</div>
+                </div>
+                <div class="scrollBox_two" style="margin-bottom: 150px;">
+                    <div class="scrollBox_overNavText">На странице поиска есть настраиваемая карта, фильтры помогут найти оптимальный вариант. На карте нет лишей информации, только самая нужная. Например, вам показывают ближайшие к вам места с наиболее подходящей ценой.</div>
+                    <div class="scrollBox_nav_open">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="scrollBox_nav_img" style="height: unset; overflow-y: hidden; " ><img src="images/Rentby2(1).png"></div>
+                    <div class="scrollBox_nav_close"></div>
+                    <div class="scrollBox_underNavText" style="color: white">Станица поиска недвижимости</div>
+                </div>
+            </div>
+        </section>
+        <div class="scrollBox_two_bg"></div>
+        <div id="cookie_alert">
+            <img src="images/cookies.svg">
+            <div class="cookie_alertBox">
+                <div class="cookie_alertText">We use cookies to save<br> your favorites and viewed rentals
+                    <button class="cookie_alert_close" onclick="cookie_alert_close()">
+                        <div></div>
+                        <div></div>
+                    </button>
+                </div>
+                <div class="cookie_alertSmallBox">
+                    <span>
+                        <span class="cookie_alertSmallBoxText">Read more</span>
+                        <div class="cookie_alertSmallBoxTextUnderLine"></div>
+                    </span>
+                    <button class="cookie_alertText_Confirm" onclick="cookie_alert_close()">Okay</button>
+                </div>
+            </div>
+        </div>
+        <section id="section_three" class="section-std"> 
+            <div style="margin-bottom: 0;">       
+                <div class="title" >Мобильное приложение «Вабанк»</div>
+                <div class="section-text" style="color: #A8A9AA; margin-bottom: 25px;">Вабанк - мобильный банк, обсепечивающий доступ к нескольким платежным аккаунтам.</div>
+                <div class="section-text" style="color: #A8A9AA; margin-bottom: 25px;">Просматривать баланс, переводить деньги, расщитывать бюджет помогает удобное мобильное приложение.</div>             
+                
+            </div>
+            <div class="section_three_images" style="margin-top: 50px; margin-bottom: 0px;">
+                <img id="section_three_images_phone" src="images/Vabank_phone.png" alt="Скриншот на IPhone" />
+                <img id="section_three_images_pattern" src="images/Pattern.png">
+            </div>
+            
+        </section>
+        <section id="section_three_one" class="">
+            <div class="section_three_one_overText scrollBox_overNavText adaptive-std" >
+                <span>В приложении нет ничего лишнего, только полезные разделы: аккаунты, платежи, история платежей, чат подержки.</span>
+            </div>
+            <div id="carusel_vabank" class="carousel" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "pageDots": false }'>
+                <div class="carousel-cell"><img class="vabank_scrins" src="images/vabank_scrin_1.png" alt="Вабанк скриншот" /></div>
+                <div class="carousel-cell"><img class="vabank_scrins" src="images/vabank_scrin_2.png" alt="Вабанк скриншот" /></div>
+                <div class="carousel-cell"><img class="vabank_scrins" src="images/vabank_scrin_3.png" alt="Вабанк скриншот" /></div>
+                <div class="carousel-cell"><img class="vabank_scrins" src="images/vabank_scrin_4.png" alt="Вабанк скриншот" /></div>
+                <div class="carousel-cell"><img class="vabank_scrins" src="images/vabank_scrin_5.png" alt="Вабанк скриншот" /></div>
+                <div class="carousel-cell"><img class="vabank_scrins" src="images/vabank_scrin_6.png" alt="Вабанк скриншот" /></div>
+                <div class="carousel-cell"><img class="vabank_scrins" src="images/vabank_scrin_7.png" alt="Вабанк скриншот" /></div>
+                
+            </div>
+        </section>        
+        <section id="section_four">
+            <div class="section-std">
+                <div class="section_fourBox">
+                    <div class="title">Сайт магазина для животных «Сток»</div>
+                    <div class="section-text" style="margin-bottom: 25px;">Компания «Сток» занимается продажей продуктов для животных</div>
+                    <div class="section-text" style="margin-bottom: 25px;">О приемуществах аггрегатора говорит простой, информативный лаконичный сайт.</div>
+                    <div class="scrollBox_one">
+                        <div class="scrollBox_nav_open">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="scrollBox_nav_img"><img src="images/stok.png"></div>
+                        <div class="scrollBox_nav_close"></div>
+                        <div class="scrollBox_underNavText">Станица покупки товара</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div id="section_four_one" class="adaptive-std" style="margin: 50px 0 25px 0;">
+            <div class="adaptive-std">
+                <div>
+                    <div class="section-text" style=" margin-bottom: 25px;">Компания «Сток» занимается продажей продуктов для животных</div>
+                    <div class="section-text" style=" margin-bottom: 25px;">О приемуществах аггрегатора говорит простой, информативный лаконичный сайт.</div>
+                </div>
+            </div>
+        </div> -->
+        <section id="section_five">
+            <div class="section-std">
+                <div class="section_fourBox">
+                    <div class="title">Сайт компании «Фанд»</div>
+                    <div class="section-text" style="margin-bottom: 25px;">Компания «Фанд» инвестирует в бизнесс на расстоянии клика. Компания уже проинвестировала в больше тысячи бизнессов, компания работает с клиентами по всему миру.</div>
+                    <div class="section-text" style="margin-bottom: 25px;">О приемуществах компании говорит простой эффективный сайт. На сайте используется айдентика разработанная мной.</div>
+                    <div class="scrollBox_one">
+                        <div class="scrollBox_nav_open">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="scrollBox_nav_img"><img src="images/fand_scrin.png"></div>
+                        <div class="scrollBox_nav_close"></div>
+                        <div class="scrollBox_underNavText">Главная страница сайта</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script type="application/javascript" src="chcolor.js"></script>
+    <script type="application/javascript" src="scroll.js"></script>
+    <script type="application/javascript" src="index.js"></script>
+    <script type="application/javascript" src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- <script type="application/javascript" src="flickity_settings.js" ></script> -->
+    </body>
+</html>
